@@ -1,0 +1,22 @@
+Git config --global user.name "draksha"
+Git config --global user.email "vanapallidrakshayani@gmail.com"
+Git config –list
+pwd
+mkdir Git_Demo
+
+cd Git_Demo
+
+pwd
+mkdir FirstRepo
+
+cd FirstRepo
+
+pwd
+Git init
+create one text file in presentworking directory
+git status
+git add .
+git log
+git commit -m "my first git commit"
+git remote add origin https://github.com/draksha-26/cgi.git
+git push -u origin master
